@@ -1,7 +1,26 @@
+# Flask 核心依賴
 Flask==2.3.3
 Flask-CORS==4.0.0
+
+# 數據處理和計算
+numpy==1.24.3
 numpy-financial==1.0.0
 pandas==2.1.0
+
+# 數據驗證
 pydantic==2.3.0
+
+# 環境配置
 python-dotenv==1.0.0
+
+# 生產服務器
 gunicorn==21.2.0
+
+# HTTP 請求（如果需要外部 API 調用）
+requests==2.31.0
+
+# 日期時間處理（如果有複雜日期計算）
+python-dateutil==2.8.2
+
+# 數學計算支援
+scipy==1.11.1
